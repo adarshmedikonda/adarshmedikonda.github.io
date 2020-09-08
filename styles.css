@@ -1,5 +1,28 @@
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:400,300,700,500,400italic,500italic,700italic,300italic);
+
 body {
-	font-family: "Times New Roman", Times, serif;
-	background-color: black;
-	margin: 0px;
+	font-family: 'Fira Sans', sans-serif;
+	background-color: #F4F5F5;
+	margin: 100px;
 }
+
+p {
+  animation: color-change 2s infinite;
+  font-size: 36px;
+  margin: 0px;
+}
+
+@keyframes color-change {
+  0% { color: #1A0D1B; }
+  50% { color: #C99DAB; }
+  100% { color: #1A0D1B; }
+}
+
+div.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* height: 720px; */
+}
+
