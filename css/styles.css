@@ -3,13 +3,14 @@
 body {
 	font-family: 'Fira Sans', sans-serif;
 	background-color: #F4F5F5;
-	margin: 100px;
+	margin: 125px;
 }
 
-p {
+a {
   animation: color-change 2s infinite;
   font-size: 36px;
   margin: 0px;
+  text-decoration: none;
 }
 
 @keyframes color-change {
@@ -18,11 +19,18 @@ p {
   100% { color: #1A0D1B; }
 }
 
-div.container {
+div.text-selection {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* height: 720px; */
 }
 
+.resume {
+}
+
+.contact {
+}
+
+.other {
+}
